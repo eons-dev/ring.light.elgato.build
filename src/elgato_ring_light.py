@@ -24,5 +24,5 @@ class elgato_ring_light(Builder):
 		}
 
 		r = requests.put(f"http://{this.elgato_ring_light_ip}:9123/elgato/lights", json=requestData)
-		logging.debug(f"Sent: {r.request.data} with headers: {r.request.headers}")
+		logging.debug(f"Sent: {r.request.body} with headers: {r.request.headers}")
 		logging.debug(f"Elgato Ring Light Response ({r.status_code}): {r.text}")
