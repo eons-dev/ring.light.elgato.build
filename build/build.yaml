@@ -1,4 +1,4 @@
-name: "ring.light.elgato"
+name: "elgato_ring_light"
 type: "build"
 clear_build_path: true
 build_in: tmp
