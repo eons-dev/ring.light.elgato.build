@@ -1,5 +1,5 @@
 name: elgato_ring_light
-type: config
+type: build
 next:
 - build: publish
 	copy:

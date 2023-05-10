@@ -1,5 +1,5 @@
 name: "ring.light.elgato"
-type: "config"
+type: "build"
 clear_build_path: true
 build_in: tmp
 next:
