@@ -1,0 +1,12 @@
+name: elgato_ring_light
+type: config
+next:
+- build: publish
+	copy:
+	- /src: src
+	build_in: src
+	run_when_any:
+	- release
+	config:
+		clear_build_path: false
+		visibility: public
